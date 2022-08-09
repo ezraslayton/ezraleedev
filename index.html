@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EzraLee</title>
+    <script src="https://kit.fontawesome.com/12d2f785de.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap');
+        </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/eleelogo-removebg-.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+        <div class="header-text">
+        <p>[Shopify Developer<span class="blink_me">_</span> ]</p>
+        <h1>Hi, I'm <span>Ezra</span>,<br> Here To Help You.</h1>
+        </div>
+        </div>
+ </div>
+ <!--ABOUT SECTION-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Not a fan of talking about myself! But here goes...<br>As a well-rounded Shopify/Front end Dev, I make sure that systems, interfaces, language and graphics are human-friendly, emotive, aesthtically pleasing, clear, on-brand and usable - with a touch of mellow smoothness.<br> I'm primarily a Shopify Developer with budding Front end and interactive design skills. This means I mostly deal with setting up sites to look amazing and my goal is a high conversion rates.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <!--skills-->
+                        <ul>
+                            <li><span>Web Development</span><br>Front End Development</li>
+                            <li><span>Shopify Development</span><br>Store Setup/Theme Development</li>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <!--experience-->
+                          <ul>
+                            <li><span>2021 - Current</span><br>Front End Developer/Shopify Developer - Freelance </li>
+                            <li><span>2013 - Current</span><br>ESL Teacher at GCCSC Guiyang, CN</li>
+                            <li><span>2004 - 2013</span><br>US ARMY - 92F</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <!--education-->
+                        <ul>
+                            <li><span>2022</span><br>Responsive Web Design - FCC</li>
+                            <li><span>2021</span><br>Shopify Development - FREEMOTE</li>
+                            <li><span>2019</span><br>YouTube University ;)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--SERVICES-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>While web development typically refers to web markup and coding, website development includes all related development tasks, such as client-side scripting, server-side scripting, server and network security configuration, eCommerce development, and content management system (CMS) development.</p>
+                    <a href="https://blog.hubspot.com/website/website-development" target="_blank">Learn more</a>
+                    </div>
+                    <div>
+                    <i class="fa-brands fa-shopify"></i>
+                    <h2>Shopify Development</h2>
+                    <p>The key reason that differentiates a Shopify developer from other e-commerce website designers is the capacity to provide a narrow specialty in a worldwide e-commerce platform that can stand and effectively perform on its own, as well as be integrated with other CMS.</p>
+                    <a href="https://shopify.dev/">Learn more</a>
+                    </div>
+                    <div>
+                    <i class="fa-brands fa-html5"></i>
+                    <h2>Front End Development</h2>
+                    <p>The objective of designing a site is to ensure that when the users open up the site they see the information in a format that is easy to read and relevant. This is further complicated by the fact that users now use a large variety of devices with varying screen sizes and resolutions thus forcing the designer to take into consideration these aspects when designing the site. They need to ensure that their site comes up correctly in different browsers (cross-browser), different operating systems (cross-platform) and different devices (cross-device), which requires careful planning on the side of the developer.</p>
+                    <a href="https://frontendmasters.com/guides/front-end-handbook/2018/what-is-a-FD.html">Learn more</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--PORTFOLIO---------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/maxStrongWebsite canva.png">
+                    <div class="layer">
+                        <h3>Fitness Coach Home Page</h3>
+                        <p>uisque ac augue tortor. Pellentesque lacinia nec turpis et sodales. Ut mattis ornare vestibulum.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/Open seven canva.png">
+                    <div class="layer">
+                        <h3>Customized Shopify Clothing Store</h3>
+                        <p>uisque ac augue tortor. Pellentesque lacinia nec turpis et sodales. Ut mattis ornare vestibulum.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/solarhop canva.png">
+                    <div class="layer">
+                        <h3>Customized One-Product Shopify Store</h3>
+                        <p>uisque ac augue tortor. Pellentesque lacinia nec turpis et sodales. Ut mattis ornare vestibulum.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+<!--CONTACT======-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>contact@ezralee.dev</p>
+                <p><i class="fa-solid fa-square-phone"></i>(555).111.3322</p>
+                <div class="social-icons">
+                    <a href="https://github.com/ezraslayton" target="blank_"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://codepen.io/ezraslayton" target="blank_"><i class="fa-brands fa-codepen"></i></a>
+                    <a href="https://linkedin.com/in/ezra-lee-dev" target="blank_"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/ezraleedevCV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>Copyright © ezralee.dev | Contact me anytime, friend! <i class="fa-solid fa-heart"></i></p>
+</div>
+</div>
+
+
+
+<script>
+
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+function opentab(tabname){
+    for (tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+</script>  
+
+<script>
+
+var sidemenu = document.getElementById("sidemenu");
+function openmenu(){
+    sidemenu.style.right = "0";
+
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+
+}
+</script>
+
+  
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwycepGq_Xrvtl75567T3bI6Q5yvPdY7d_l7rqD-elRj__L8f8HcCcIhlQfPWpAVk-h/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Thanks! Message sent successfully."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
